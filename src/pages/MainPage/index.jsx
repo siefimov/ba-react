@@ -16,6 +16,7 @@ export const MainPage = () => {
     <div className="wrapper">
       <div className="title">
         <h2 className="title__text">CSS Weather Forecast </h2>
+        <WiSunrise />
       </div>
 
       <div className="weather__wrapper">
@@ -30,6 +31,9 @@ export const MainPage = () => {
         <Weather title="San-Francisco" temperature="15&deg;C" icon={<WiDaySunnyOvercast />} />
         <Weather title="Tokyo" temperature="8&deg;C" icon={<WiNightClear />} />
         <Weather title="Sydney" temperature="25&deg;C" icon={<WiNightPartlyCloudy />} />
+      </div>
+      <div className='footer'>
+      <p className="footer__text">Have a nice day and don't forget umbrella if you are in New Delhi now!</p>
       </div>
     </div>
   );

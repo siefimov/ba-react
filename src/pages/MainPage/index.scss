@@ -1,3 +1,32 @@
+.title {
+  display: flex;
+  align-items: center;
+  margin-left: 135px;
+  margin-top: 36px;
+}
+.title svg {
+  color: #ffffff;
+  font-size: 50px;
+}
+.title__text {
+  font-family: "Lucida Sans Unicode";
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-right: 20px;
+}
+.weather__wrapper {
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 147px;
+  margin: 37px 135px 35px;
+  border: 1px solid white;
+}
+h3 {
+  margin: 0;
+}
+
 .Lisbon {
   background-color: #70b8db;
   grid-column: 1 / span 2;
@@ -31,4 +60,14 @@
 .Sydney {
   background-color: #666699;
   grid-column: 1 / span 4;
+}
+
+.footer {
+  margin-left: 135px;
+  margin-bottom: 100px;
+  &__text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+  }
 }
